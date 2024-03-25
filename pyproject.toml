@@ -1,0 +1,17 @@
+[project]
+name = "bundeshaushalt"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Denise Müller", email = "134210655+dzzling@users.noreply.github.com"},
+]
+dependencies = [
+    "polars>=0.20.16",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
