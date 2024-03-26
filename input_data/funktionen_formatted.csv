@@ -1,0 +1,242 @@
+Typ,Nummer,Beschreibung
+Hauptfunktion,0,"Allgemeine Dienste"""
+Oberfunktion,01,Politische Führung und zentrale Verwaltung
+Funktion,011,Politische Führung
+Funktion,012,Innere Verwaltung
+Funktion,013,Informationswesen
+Funktion,014,Statistischer Dienst
+Funktion,015,Zivildienst
+Funktion,016,Hochbauverwaltung
+Funktion,018,Versorgung einschließlich Beihilfen für Versorgungsempfängerinnen und Versorgungsempfänger
+Funktion,019,Sonstige allgemeine Staatsaufgaben
+Oberfunktion, 02,Auswärtige Angelegenheiten
+Funktion, 021,Auslandsvertretungen (nur Bund)
+Funktion, 022,Internationale Organisationen
+Funktion, 023,Wirtschaftliche Zusammenarbeit und Entwicklung
+Funktion, 024,Auslandsschulwesen und kulturelle Angelegenheiten im Ausland
+Funktion, 029,Sonstige auswärtige Angelegenheiten
+Oberfunktion, 03,Verteidigung (nur Bund)
+Funktion, 031,Bundeswehrverwaltung
+Funktion, 032,Deutsche Verteidigungsstreitkräfte
+Funktion, 033,Verteidigungslasten im Zusammenhang mit dem Aufenthalt ausländischer Streitkräfte
+Funktion, 036,Wehrforschung und wehrtechnische Entwicklung
+Funktion, 037,Unterhaltssicherung
+Funktion, 038,Versorgung einschließlich Beihilfen für Versorgungsempfängerinnen und Versorgungsempfänger im Bereich der Bundeswehrverwaltung
+Funktion, 039,Versorgung einschließlich Beihilfen der Soldatinnen und Soldaten der Bundeswehr
+Oberfunktion, 04,Öffentliche Sicherheit und Ordnung
+Funktion, 042,Polizei
+Funktion, 043,Öffentliche Ordnung
+Funktion, 044,Brandschutz
+Funktion, 045,Bevölkerungs- und Katastrophenschutz
+Funktion, 046,Wetterdienst
+Funktion, 047,Schutz der Verfassung
+Funktion, 048,Versorgung einschließlich Beihilfen für Versorgungsempfängerinnen und Versorgungsempfänger im Bereich der öffentlichen Sicherheit und Ordnung
+Oberfunktion, 05,Rechtsschutz
+Funktion, 051,Gerichte und Staatsanwaltschaften
+Funktion, 056,Justizvollzugsanstalten
+Funktion, 058,Versorgung einschließlich Beihilfen für Versorgungsempfängerinnen und Versorgungsempfänger im Bereich des Rechtsschutzes (nur Länder)
+Funktion, 059,Sonstige Rechtsschutzaufgaben
+Oberfunktion, 06,Finanzverwaltung
+Funktion, 061,Steuer- und Zollverwaltung
+Funktion, 062,"Schulden-, Vermögens- und sonstige Finanzverwaltung"
+Funktion, 068,Versorgung einschließlich Beihilfen für Versorgungsempfängerinnen und Versorgungsempfänger im Bereich der Finanzverwaltung
+Funktion, 1,"Bildungswesen, Wissenschaft, Forschung, kulturelle Angelegenheiten"
+Oberfunktion, 11,Allgemeinbildende und berufliche Schulen
+Funktion, 111,Unterrichtsverwaltung
+Funktion, 112,Öffentliche Grundschulen
+Funktion, 113,Private Grundschulen
+Funktion, 114,Öffentliche weiterführende allgemeinbildende Schulen (ohne Sonderschulen/Förderschulen)
+Funktion, 115,Private weiterführende allgemeinbildende Schulen (ohne Sonderschulen/ Förderschulen)
+Funktion, 118,Versorgung einschließlich Beihilfen für Versorgungsempfängerinnen und Versorgungsempfänger im Bereich der Schulen (nur Länder)
+Funktion, 124,Öffentliche Sonderschulen/Förderschulen des allgemeinbildenden Bereichs
+Funktion, 125,Private Sonderschulen/Förderschulen des allgemeinbildenden Bereichs
+Funktion, 127,Öffentliche berufliche Schulen
+Funktion, 128,Private berufliche Schulen
+Funktion, 129,Sonstige schulische Aufgaben
+Oberfunktion, 13,Hochschulen
+Funktion, 132,Hochschulkliniken
+Funktion, 133,Öffentliche Hochschulen und Berufsakademien
+Funktion, 134,Private Hochschulen und Berufsakademien
+Funktion, 137,Deutsche Forschungsgemeinschaft
+Funktion, 138,Versorgung einschließlich Beihilfen für Versorgungsempfängerinnen und Versorgungsempfänger im Bereich der Hochschulen (nur Länder)
+Funktion, 139,Sonstige Hochschulaufgaben
+Oberfunktion, 14,"Förderung für Schülerinnen und Schüler, Studierende, Weiterbildungsteilnehmende und dgl."
+Funktion, 141,Förderung für Schülerinnen und Schüler
+Funktion, 142,Förderung für Studierende und wissenschaftlichen Nachwuchs
+Funktion, 144,Förderung für Weiterbildungsteilnehmende
+Funktion, 145,Schülerbeförderung
+Oberfunktion, 15,Sonstiges Bildungswesen
+Funktion, 152,Volkshochschulen
+Funktion, 153,Sonstige Weiterbildung (ohne Förderung für Teilnehmende)
+Funktion, 154,Ausbildung der Lehrkräfte
+Funktion, 155,Fort- und Weiterbildung der Lehrkräfte
+Oberfunktion, 16,"Wissenschaft, Forschung, Entwicklung außerhalb der Hochschulen (ohne Wehrforschung und wehrtechnische Entwicklung)"
+Funktion, 162,"Wissenschaftliche Bibliotheken, Archive, Fachinformationszentren"
+Funktion, 163,Wissenschaftliche Museen
+Funktion, 164,Gemeinsame Forschungsförderung von Bund und Ländern (ohne Deutsche Forschungsgemeinschaft)
+Funktion, 165,Forschung und experimentelle Entwicklung
+Funktion, 167,Zuschüsse an internationale wissenschaftliche Organisationen und zwischenstaatliche Forschungseinrichtungen
+Oberfunktion, 18/19,Kultur und Religion
+Funktion, 181,Theater
+Funktion, 182,Musikpflege
+Funktion, 183,"Museen, Sammlungen, Ausstellungen"
+Funktion, 184,Zoologische und botanische Gärten
+Funktion, 185,Musikschulen
+Funktion, 186,Nichtwissenschaftliche Bibliotheken
+Funktion, 187,Sonstige Kulturpflege
+Funktion, 188,Verwaltung für kulturelle Angelegenheiten
+Funktion, 195,Denkmalschutz und -pflege
+Funktion, 199,Kirchliche Angelegenheiten
+Hauptfunktion, 2,"Soziale Sicherung, Familie und Jugend, Arbeitsmarktpolitik"
+Oberfunktion, 21,Verwaltung für soziale Angelegenheiten
+Funktion, 211,Verwaltungskostenerstattung SGB II (nur Bund)
+Funktion, 219,Sonstige Verwaltung für soziale Angelegenheiten
+Oberfunktion, 22,Sozialversicherung einschl. Arbeitslosenversicherung
+Funktion, 221,Allgemeine Rentenversicherung (nur Bundesträger)
+Funktion, 222,Knappschaftliche Rentenversicherung (nur Bundesträger)
+Funktion, 223,Unfallversicherung
+Funktion, 224,Krankenversicherung
+Funktion, 225,Arbeitslosenversicherung (nur Bund)
+Funktion, 226,Alterssicherung der Landwirte (nur Bund)
+Funktion, 227,Pflegeversicherung
+Funktion, 229,Sonstige Sozialversicherungen
+Oberfunktion, 23,"Familienhilfe, Wohlfahrtspflege u.ä. (ohne Leistungen nach dem SGB VIII)"
+Funktion, 231,"Kindergeld, Kinderzuschlag"
+Funktion, 232,"Elterngeld, Erziehungsgeld und Mutterschutz"
+Funktion, 233,Wohngeld
+Funktion, 235,Soziale Einrichtungen
+Funktion, 236,Förderung der Wohlfahrtspflege
+Funktion, 237,Leistungen nach dem Unterhaltsvorschussgesetz
+Oberfunktion, 24,Soziale Leistungen für Folgen von Krieg und politischen Ereignissen
+Funktion, 241,Kriegsopferversorgung und -fürsorge und gleichartige Leistungen
+Funktion, 243,Lastenausgleich
+Funktion, 244,Wiedergutmachung
+Funktion, 246,Vertriebene und Spätaussiedlerinnen und Spätaussiedler
+Funktion, 249,Sonstige Leistungen für Folgen von Krieg und politischen Ereignissen
+Oberfunktion, 25,Arbeitsmarktpolitik
+Funktion, 251,Arbeitslosengeld II nach dem SGB II
+Funktion, 252,Leistungen für Unterkunft und Heizung nach dem SGB II
+Funktion, 253,Aktive Arbeitsmarktpolitik
+Funktion, 259,Sonstige Leistungen der Grundsicherung für Arbeitsuchende nach dem SGB II
+Oberfunktion, 26,Kinder- und Jugendhilfe nach dem SGB VIII (ohne Kindertagesbetreuung)
+Funktion, 261,Jugendarbeit und Jugendverbandsarbeit
+Funktion, 262,Jugendsozialarbeit
+Funktion, 263,"Erzieherischer Kinder- und Jugendschutz, Förderung der Erziehung in der Familie"
+Funktion, 265,Hilfen zur Erziehung und Eingliederungshilfen
+Funktion, 266,Weitere Aufgaben der Jugendhilfe
+Oberfunktion, 27,Kindertagesbetreuung nach dem SGB VIII
+Oberfunktion, 28,Soziale Leistungen nach dem SGB XII und dem Asylbewerberleistungsgesetz
+Funktion, 281,Hilfe zum Lebensunterhalt nach dem SGB XII
+Funktion, 282,Grundsicherung im Alter und bei Erwerbsminderung nach dem SGB XII
+Funktion, 283,Eingliederungshilfe nach dem SGB XII
+Funktion, 284,Hilfe zur Pflege nach dem SGB XII
+Funktion, 285,Weitere Leistungen nach dem SGB XII
+Funktion, 286,Leistungen nach dem SGB XII - nur Flächenländer
+Funktion, 287,Leistungen nach dem Asylbewerberleistungsgesetz
+Oberfunktion, 29,Sonstige soziale Angelegenheiten
+Hauptfunktion, 3,"Gesundheit, Umwelt, Sport und Erholung"
+Oberfunktion, 31,Gesundheitswesen
+Funktion, 311,Gesundheitsverwaltung
+Funktion, 312,Krankenhäuser und Heilstätten
+Funktion, 313,Arbeitsschutz
+Funktion, 314,Gesundheitsschutz
+Oberfunktion, 32,Sport und Erholung
+Funktion, 321,Park- und Gartenanlagen
+Funktion, 322,Sport
+Oberfunktion, 33,Umwelt- und Naturschutz
+Funktion, 331,Umwelt- und Naturschutzverwaltung
+Funktion, 332,Maßnahmen des Umwelt- und Naturschutzes
+Oberfunktion, 34,Reaktorsicherheit und Strahlenschutz
+Funktion, 341,Verwaltung für Reaktorsicherheit und Strahlenschutz
+Funktion, 342,Maßnahmen der Reaktorsicherheit und des Strahlenschutzes
+Hauptfunktion," 4
+","Wohnungswesen, Städtebau, Raumordnung und kommunale
+  Gemeinschaftsdienste"
+Oberfunktion, 41,"Wohnungswesen, Wohnungsbauprämie"
+Funktion, 411,Förderung des Wohnungsbaues
+Funktion, 412,Wohnungsbauprämie/Vermögensbildung (nur Bund)
+Funktion, 419,Sonstiges Wohnungswesen
+Oberfunktion, 42,"Geoinformation, Raumordnung und Landesplanung, Städtebauförderung"
+Funktion, 421,Geoinformation
+Funktion, 422,Raumordnung und Landesplanung
+Funktion, 423,Städtebauförderung
+Oberfunktion, 43,"Kommunale Gemeinschaftsdienste (ohne Straßenbeleuchtung, Abwasserentsorgung und Abfallwirtschaft)"
+Hauptfunktion, 5,Landwirtschaft und Ernährung
+Oberfunktion, 51,"Verwaltung für Ernährung, Landwirtschaft und Forsten (ohne Betriebsverwaltung)"
+Funktion, 511,Verwaltung für Ernährung und Landwirtschaft
+Funktion, 512,"Forst-, Jagd- und Fischereiverwaltung"
+Oberfunktion, 52,Landwirtschaft und Ernährung
+Funktion, 521,Agrarstruktur und ländlicher Raum
+Funktion, 522,Einkommenstabilisierende Maßnahmen
+Funktion, 523,"Landwirtschaftliche Produktion, Tiergesundheit und Ernährung"
+Oberfunktion, 53,"Forstwirtschaft und Jagd, Fischerei"
+Funktion, 531,Forstwirtschaft und Jagd
+Funktion, 532,Fischerei
+Hauptfunktion, 6,"Energie- und Wasserwirtschaft, Gewerbe, Dienstleistungen"""
+Oberfunktion, 61,"Verwaltung für Energie- und Wasserwirtschaft, Gewerbe und Dienstleistungen"
+Oberfunktion, 62,"Wasserwirtschaft, Hochwasser- und Küstenschutz"
+Funktion, 623,Wasserwirtschaft und Kulturbau
+Funktion, 624,"Talsperren, Hochwasserrückhaltebecken"
+Oberfunktion, 63,"Bergbau, verarbeitendes Gewerbe und Baugewerbe"
+Funktion, 631,Kohlenbergbau
+Funktion, 632,Sonstiger Bergbau
+Funktion, 634,Verarbeitende Industrie
+Funktion, 635,Handwerk und Kleingewerbe
+Funktion, 638,Baugewerbe
+Oberfunktion, 64,"Energie- und Wasserversorgung, Entsorgung"
+Funktion, 641,Kernenergie
+Funktion, 642,Erneuerbare Energieformen
+Funktion, 643,Elektrizitätsversorgung
+Funktion, 644,Wasserversorgung
+Funktion, 645,Abwasserentsorgung
+Funktion, 646,Abfallwirtschaft
+Funktion, 647,Straßenreinigung
+Funktion, 649,Sonstige Energie- und Wasserversorgung
+Oberfunktion, 65,Handel und Tourismus
+Funktion, 651,Handel
+Funktion, 652,Tourismus
+Oberfunktion, 66,Geld- und Versicherungswesen
+Funktion, 661,Banken und Kreditinstitute
+Funktion, 669,Sonstiges Geld- und Versicherungswesen
+Oberfunktion, 68,Sonstiges im Bereich Gewerbe und Dienstleistungen
+Oberfunktion, 69,Regionale Fördermaßnahmen
+Funktion, 691,Betriebliche Investitionen
+Funktion, 692,Verbesserung der Infrastruktur
+Funktion, 693,Verbesserung der regionalen Wirtschaftsstruktur
+Hauptfunktion, 7 ,Verkehrs- und Nachrichtenwesen
+Oberfunktion, 71,Verwaltung des Verkehrs- und Nachrichtenwesens
+Funktion, 711,Verwaltung für Straßen- und Brückenbau
+Funktion, 712,Verwaltung für Wasserstraßen und Häfen
+Funktion, 719,Sonstige Verkehrs- und Nachrichtenverwaltung
+Oberfunktion, 72,Straßen
+Funktion, 721,Bundesautobahnen
+Funktion, 722,Bundesstraßen
+Funktion, 723,Landesstraßen
+Funktion, 724,Kreisstraßen
+Funktion, 725,Gemeindestraßen
+Funktion, 726,Straßenbeleuchtung
+Funktion, 729,Sonstiger Straßenverkehr
+Oberfunktion, 73,"Wasserstraßen und Häfen, Förderung der Schifffahrt"
+Funktion, 731,Wasserstraßen und Häfen
+Funktion, 732,Förderung der Schifffahrt
+Oberfunktion, 74,Eisenbahnen und öffentlicher Personennahverkehr
+Funktion, 741,Öffentlicher Personennahverkehr
+Funktion, 742,Eisenbahnen
+Oberfunktion, 75,Luftfahrt
+Oberfunktion, 77,Nachrichtenwesen
+Funktion, 771,Post und Telekommunikation
+Funktion, 772,Rundfunk und Fernsehen
+Oberfunktion, 79,Sonstiges Verkehrswesen
+Hauptfunktion, 8,Finanzwirtschaft
+Oberfunktion, 81,"Grund- und Kapitalvermögen, Sondervermögen"
+Funktion, 811,Grundvermögen
+Funktion, 812,Kapitalvermögen
+Funktion, 813,Sondervermögen
+Oberfunktion, 82,Steuern und Finanzzuweisungen
+Oberfunktion, 83,Schulden
+Oberfunktion, 84,"Beihilfen, Unterstützungen u.ä."
+Oberfunktion, 85,Rücklagen
+Oberfunktion, 86,Sonstiges
+Oberfunktion, 87,Abwicklung der Vorjahre
+Oberfunktion, 88,Globalposten
+Oberfunktion, 89,Haushaltstechnische Verrechnungen
