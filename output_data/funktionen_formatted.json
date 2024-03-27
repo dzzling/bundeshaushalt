@@ -51,1147 +51,1147 @@
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 02",
+        "Nummer": "02",
         "Beschreibung": "Auswärtige Angelegenheiten"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 021",
+        "Nummer": "021",
         "Beschreibung": "Auslandsvertretungen (nur Bund)"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 022",
+        "Nummer": "022",
         "Beschreibung": "Internationale Organisationen"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 023",
+        "Nummer": "023",
         "Beschreibung": "Wirtschaftliche Zusammenarbeit und Entwicklung"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 024",
+        "Nummer": "024",
         "Beschreibung": "Auslandsschulwesen und kulturelle Angelegenheiten im Ausland"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 029",
+        "Nummer": "029",
         "Beschreibung": "Sonstige auswärtige Angelegenheiten"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 03",
+        "Nummer": "03",
         "Beschreibung": "Verteidigung (nur Bund)"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 031",
+        "Nummer": "031",
         "Beschreibung": "Bundeswehrverwaltung"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 032",
+        "Nummer": "032",
         "Beschreibung": "Deutsche Verteidigungsstreitkräfte"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 033",
+        "Nummer": "033",
         "Beschreibung": "Verteidigungslasten im Zusammenhang mit dem Aufenthalt ausländischer Streitkräfte"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 036",
+        "Nummer": "036",
         "Beschreibung": "Wehrforschung und wehrtechnische Entwicklung"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 037",
+        "Nummer": "037",
         "Beschreibung": "Unterhaltssicherung"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 038",
+        "Nummer": "038",
         "Beschreibung": "Versorgung einschließlich Beihilfen für Versorgungsempfängerinnen und Versorgungsempfänger im Bereich der Bundeswehrverwaltung"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 039",
+        "Nummer": "039",
         "Beschreibung": "Versorgung einschließlich Beihilfen der Soldatinnen und Soldaten der Bundeswehr"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 04",
+        "Nummer": "04",
         "Beschreibung": "Öffentliche Sicherheit und Ordnung"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 042",
+        "Nummer": "042",
         "Beschreibung": "Polizei"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 043",
+        "Nummer": "043",
         "Beschreibung": "Öffentliche Ordnung"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 044",
+        "Nummer": "044",
         "Beschreibung": "Brandschutz"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 045",
+        "Nummer": "045",
         "Beschreibung": "Bevölkerungs- und Katastrophenschutz"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 046",
+        "Nummer": "046",
         "Beschreibung": "Wetterdienst"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 047",
+        "Nummer": "047",
         "Beschreibung": "Schutz der Verfassung"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 048",
+        "Nummer": "048",
         "Beschreibung": "Versorgung einschließlich Beihilfen für Versorgungsempfängerinnen und Versorgungsempfänger im Bereich der öffentlichen Sicherheit und Ordnung"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 05",
+        "Nummer": "05",
         "Beschreibung": "Rechtsschutz"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 051",
+        "Nummer": "051",
         "Beschreibung": "Gerichte und Staatsanwaltschaften"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 056",
+        "Nummer": "056",
         "Beschreibung": "Justizvollzugsanstalten"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 058",
+        "Nummer": "058",
         "Beschreibung": "Versorgung einschließlich Beihilfen für Versorgungsempfängerinnen und Versorgungsempfänger im Bereich des Rechtsschutzes (nur Länder)"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 059",
+        "Nummer": "059",
         "Beschreibung": "Sonstige Rechtsschutzaufgaben"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 06",
+        "Nummer": "06",
         "Beschreibung": "Finanzverwaltung"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 061",
+        "Nummer": "061",
         "Beschreibung": "Steuer- und Zollverwaltung"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 062",
+        "Nummer": "062",
         "Beschreibung": "Schulden-, Vermögens- und sonstige Finanzverwaltung"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 068",
+        "Nummer": "068",
         "Beschreibung": "Versorgung einschließlich Beihilfen für Versorgungsempfängerinnen und Versorgungsempfänger im Bereich der Finanzverwaltung"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 1",
+        "Nummer": "1",
         "Beschreibung": "Bildungswesen, Wissenschaft, Forschung, kulturelle Angelegenheiten"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 11",
+        "Nummer": "11",
         "Beschreibung": "Allgemeinbildende und berufliche Schulen"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 111",
+        "Nummer": "111",
         "Beschreibung": "Unterrichtsverwaltung"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 112",
+        "Nummer": "112",
         "Beschreibung": "Öffentliche Grundschulen"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 113",
+        "Nummer": "113",
         "Beschreibung": "Private Grundschulen"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 114",
+        "Nummer": "114",
         "Beschreibung": "Öffentliche weiterführende allgemeinbildende Schulen (ohne Sonderschulen/Förderschulen)"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 115",
+        "Nummer": "115",
         "Beschreibung": "Private weiterführende allgemeinbildende Schulen (ohne Sonderschulen/ Förderschulen)"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 118",
+        "Nummer": "118",
         "Beschreibung": "Versorgung einschließlich Beihilfen für Versorgungsempfängerinnen und Versorgungsempfänger im Bereich der Schulen (nur Länder)"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 124",
+        "Nummer": "124",
         "Beschreibung": "Öffentliche Sonderschulen/Förderschulen des allgemeinbildenden Bereichs"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 125",
+        "Nummer": "125",
         "Beschreibung": "Private Sonderschulen/Förderschulen des allgemeinbildenden Bereichs"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 127",
+        "Nummer": "127",
         "Beschreibung": "Öffentliche berufliche Schulen"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 128",
+        "Nummer": "128",
         "Beschreibung": "Private berufliche Schulen"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 129",
+        "Nummer": "129",
         "Beschreibung": "Sonstige schulische Aufgaben"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 13",
+        "Nummer": "13",
         "Beschreibung": "Hochschulen"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 132",
+        "Nummer": "132",
         "Beschreibung": "Hochschulkliniken"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 133",
+        "Nummer": "133",
         "Beschreibung": "Öffentliche Hochschulen und Berufsakademien"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 134",
+        "Nummer": "134",
         "Beschreibung": "Private Hochschulen und Berufsakademien"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 137",
+        "Nummer": "137",
         "Beschreibung": "Deutsche Forschungsgemeinschaft"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 138",
+        "Nummer": "138",
         "Beschreibung": "Versorgung einschließlich Beihilfen für Versorgungsempfängerinnen und Versorgungsempfänger im Bereich der Hochschulen (nur Länder)"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 139",
+        "Nummer": "139",
         "Beschreibung": "Sonstige Hochschulaufgaben"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 14",
+        "Nummer": "14",
         "Beschreibung": "Förderung für Schülerinnen und Schüler, Studierende, Weiterbildungsteilnehmende und dgl."
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 141",
+        "Nummer": "141",
         "Beschreibung": "Förderung für Schülerinnen und Schüler"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 142",
+        "Nummer": "142",
         "Beschreibung": "Förderung für Studierende und wissenschaftlichen Nachwuchs"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 144",
+        "Nummer": "144",
         "Beschreibung": "Förderung für Weiterbildungsteilnehmende"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 145",
+        "Nummer": "145",
         "Beschreibung": "Schülerbeförderung"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 15",
+        "Nummer": "15",
         "Beschreibung": "Sonstiges Bildungswesen"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 152",
+        "Nummer": "152",
         "Beschreibung": "Volkshochschulen"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 153",
+        "Nummer": "153",
         "Beschreibung": "Sonstige Weiterbildung (ohne Förderung für Teilnehmende)"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 154",
+        "Nummer": "154",
         "Beschreibung": "Ausbildung der Lehrkräfte"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 155",
+        "Nummer": "155",
         "Beschreibung": "Fort- und Weiterbildung der Lehrkräfte"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 16",
+        "Nummer": "16",
         "Beschreibung": "Wissenschaft, Forschung, Entwicklung außerhalb der Hochschulen (ohne Wehrforschung und wehrtechnische Entwicklung)"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 162",
+        "Nummer": "162",
         "Beschreibung": "Wissenschaftliche Bibliotheken, Archive, Fachinformationszentren"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 163",
+        "Nummer": "163",
         "Beschreibung": "Wissenschaftliche Museen"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 164",
+        "Nummer": "164",
         "Beschreibung": "Gemeinsame Forschungsförderung von Bund und Ländern (ohne Deutsche Forschungsgemeinschaft)"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 165",
+        "Nummer": "165",
         "Beschreibung": "Forschung und experimentelle Entwicklung"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 167",
+        "Nummer": "167",
         "Beschreibung": "Zuschüsse an internationale wissenschaftliche Organisationen und zwischenstaatliche Forschungseinrichtungen"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 18/19",
+        "Nummer": "18/19",
         "Beschreibung": "Kultur und Religion"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 181",
+        "Nummer": "181",
         "Beschreibung": "Theater"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 182",
+        "Nummer": "182",
         "Beschreibung": "Musikpflege"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 183",
+        "Nummer": "183",
         "Beschreibung": "Museen, Sammlungen, Ausstellungen"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 184",
+        "Nummer": "184",
         "Beschreibung": "Zoologische und botanische Gärten"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 185",
+        "Nummer": "185",
         "Beschreibung": "Musikschulen"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 186",
+        "Nummer": "186",
         "Beschreibung": "Nichtwissenschaftliche Bibliotheken"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 187",
+        "Nummer": "187",
         "Beschreibung": "Sonstige Kulturpflege"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 188",
+        "Nummer": "188",
         "Beschreibung": "Verwaltung für kulturelle Angelegenheiten"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 195",
+        "Nummer": "195",
         "Beschreibung": "Denkmalschutz und -pflege"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 199",
+        "Nummer": "199",
         "Beschreibung": "Kirchliche Angelegenheiten"
     },
     {
         "Typ": "Hauptfunktion",
-        "Nummer": " 2",
+        "Nummer": "2",
         "Beschreibung": "Soziale Sicherung, Familie und Jugend, Arbeitsmarktpolitik"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 21",
+        "Nummer": "21",
         "Beschreibung": "Verwaltung für soziale Angelegenheiten"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 211",
+        "Nummer": "211",
         "Beschreibung": "Verwaltungskostenerstattung SGB II (nur Bund)"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 219",
+        "Nummer": "219",
         "Beschreibung": "Sonstige Verwaltung für soziale Angelegenheiten"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 22",
+        "Nummer": "22",
         "Beschreibung": "Sozialversicherung einschl. Arbeitslosenversicherung"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 221",
+        "Nummer": "221",
         "Beschreibung": "Allgemeine Rentenversicherung (nur Bundesträger)"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 222",
+        "Nummer": "222",
         "Beschreibung": "Knappschaftliche Rentenversicherung (nur Bundesträger)"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 223",
+        "Nummer": "223",
         "Beschreibung": "Unfallversicherung"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 224",
+        "Nummer": "224",
         "Beschreibung": "Krankenversicherung"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 225",
+        "Nummer": "225",
         "Beschreibung": "Arbeitslosenversicherung (nur Bund)"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 226",
+        "Nummer": "226",
         "Beschreibung": "Alterssicherung der Landwirte (nur Bund)"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 227",
+        "Nummer": "227",
         "Beschreibung": "Pflegeversicherung"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 229",
+        "Nummer": "229",
         "Beschreibung": "Sonstige Sozialversicherungen"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 23",
+        "Nummer": "23",
         "Beschreibung": "Familienhilfe, Wohlfahrtspflege u.ä. (ohne Leistungen nach dem SGB VIII)"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 231",
+        "Nummer": "231",
         "Beschreibung": "Kindergeld, Kinderzuschlag"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 232",
+        "Nummer": "232",
         "Beschreibung": "Elterngeld, Erziehungsgeld und Mutterschutz"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 233",
+        "Nummer": "233",
         "Beschreibung": "Wohngeld"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 235",
+        "Nummer": "235",
         "Beschreibung": "Soziale Einrichtungen"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 236",
+        "Nummer": "236",
         "Beschreibung": "Förderung der Wohlfahrtspflege"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 237",
+        "Nummer": "237",
         "Beschreibung": "Leistungen nach dem Unterhaltsvorschussgesetz"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 24",
+        "Nummer": "24",
         "Beschreibung": "Soziale Leistungen für Folgen von Krieg und politischen Ereignissen"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 241",
+        "Nummer": "241",
         "Beschreibung": "Kriegsopferversorgung und -fürsorge und gleichartige Leistungen"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 243",
+        "Nummer": "243",
         "Beschreibung": "Lastenausgleich"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 244",
+        "Nummer": "244",
         "Beschreibung": "Wiedergutmachung"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 246",
+        "Nummer": "246",
         "Beschreibung": "Vertriebene und Spätaussiedlerinnen und Spätaussiedler"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 249",
+        "Nummer": "249",
         "Beschreibung": "Sonstige Leistungen für Folgen von Krieg und politischen Ereignissen"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 25",
+        "Nummer": "25",
         "Beschreibung": "Arbeitsmarktpolitik"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 251",
+        "Nummer": "251",
         "Beschreibung": "Arbeitslosengeld II nach dem SGB II"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 252",
+        "Nummer": "252",
         "Beschreibung": "Leistungen für Unterkunft und Heizung nach dem SGB II"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 253",
+        "Nummer": "253",
         "Beschreibung": "Aktive Arbeitsmarktpolitik"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 259",
+        "Nummer": "259",
         "Beschreibung": "Sonstige Leistungen der Grundsicherung für Arbeitsuchende nach dem SGB II"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 26",
+        "Nummer": "26",
         "Beschreibung": "Kinder- und Jugendhilfe nach dem SGB VIII (ohne Kindertagesbetreuung)"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 261",
+        "Nummer": "261",
         "Beschreibung": "Jugendarbeit und Jugendverbandsarbeit"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 262",
+        "Nummer": "262",
         "Beschreibung": "Jugendsozialarbeit"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 263",
+        "Nummer": "263",
         "Beschreibung": "Erzieherischer Kinder- und Jugendschutz, Förderung der Erziehung in der Familie"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 265",
+        "Nummer": "265",
         "Beschreibung": "Hilfen zur Erziehung und Eingliederungshilfen"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 266",
+        "Nummer": "266",
         "Beschreibung": "Weitere Aufgaben der Jugendhilfe"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 27",
+        "Nummer": "27",
         "Beschreibung": "Kindertagesbetreuung nach dem SGB VIII"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 28",
+        "Nummer": "28",
         "Beschreibung": "Soziale Leistungen nach dem SGB XII und dem Asylbewerberleistungsgesetz"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 281",
+        "Nummer": "281",
         "Beschreibung": "Hilfe zum Lebensunterhalt nach dem SGB XII"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 282",
+        "Nummer": "282",
         "Beschreibung": "Grundsicherung im Alter und bei Erwerbsminderung nach dem SGB XII"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 283",
+        "Nummer": "283",
         "Beschreibung": "Eingliederungshilfe nach dem SGB XII"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 284",
+        "Nummer": "284",
         "Beschreibung": "Hilfe zur Pflege nach dem SGB XII"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 285",
+        "Nummer": "285",
         "Beschreibung": "Weitere Leistungen nach dem SGB XII"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 286",
+        "Nummer": "286",
         "Beschreibung": "Leistungen nach dem SGB XII - nur Flächenländer"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 287",
+        "Nummer": "287",
         "Beschreibung": "Leistungen nach dem Asylbewerberleistungsgesetz"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 29",
+        "Nummer": "29",
         "Beschreibung": "Sonstige soziale Angelegenheiten"
     },
     {
         "Typ": "Hauptfunktion",
-        "Nummer": " 3",
+        "Nummer": "3",
         "Beschreibung": "Gesundheit, Umwelt, Sport und Erholung"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 31",
+        "Nummer": "31",
         "Beschreibung": "Gesundheitswesen"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 311",
+        "Nummer": "311",
         "Beschreibung": "Gesundheitsverwaltung"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 312",
+        "Nummer": "312",
         "Beschreibung": "Krankenhäuser und Heilstätten"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 313",
+        "Nummer": "313",
         "Beschreibung": "Arbeitsschutz"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 314",
+        "Nummer": "314",
         "Beschreibung": "Gesundheitsschutz"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 32",
+        "Nummer": "32",
         "Beschreibung": "Sport und Erholung"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 321",
+        "Nummer": "321",
         "Beschreibung": "Park- und Gartenanlagen"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 322",
+        "Nummer": "322",
         "Beschreibung": "Sport"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 33",
+        "Nummer": "33",
         "Beschreibung": "Umwelt- und Naturschutz"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 331",
+        "Nummer": "331",
         "Beschreibung": "Umwelt- und Naturschutzverwaltung"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 332",
+        "Nummer": "332",
         "Beschreibung": "Maßnahmen des Umwelt- und Naturschutzes"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 34",
+        "Nummer": "34",
         "Beschreibung": "Reaktorsicherheit und Strahlenschutz"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 341",
+        "Nummer": "341",
         "Beschreibung": "Verwaltung für Reaktorsicherheit und Strahlenschutz"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 342",
+        "Nummer": "342",
         "Beschreibung": "Maßnahmen der Reaktorsicherheit und des Strahlenschutzes"
     },
     {
         "Typ": "Hauptfunktion",
-        "Nummer": " 4\r\n",
+        "Nummer": "4\r\n",
         "Beschreibung": "Wohnungswesen, Städtebau, Raumordnung und kommunale\r\n  Gemeinschaftsdienste"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 41",
+        "Nummer": "41",
         "Beschreibung": "Wohnungswesen, Wohnungsbauprämie"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 411",
+        "Nummer": "411",
         "Beschreibung": "Förderung des Wohnungsbaues"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 412",
+        "Nummer": "412",
         "Beschreibung": "Wohnungsbauprämie/Vermögensbildung (nur Bund)"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 419",
+        "Nummer": "419",
         "Beschreibung": "Sonstiges Wohnungswesen"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 42",
+        "Nummer": "42",
         "Beschreibung": "Geoinformation, Raumordnung und Landesplanung, Städtebauförderung"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 421",
+        "Nummer": "421",
         "Beschreibung": "Geoinformation"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 422",
+        "Nummer": "422",
         "Beschreibung": "Raumordnung und Landesplanung"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 423",
+        "Nummer": "423",
         "Beschreibung": "Städtebauförderung"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 43",
+        "Nummer": "43",
         "Beschreibung": "Kommunale Gemeinschaftsdienste (ohne Straßenbeleuchtung, Abwasserentsorgung und Abfallwirtschaft)"
     },
     {
         "Typ": "Hauptfunktion",
-        "Nummer": " 5",
+        "Nummer": "5",
         "Beschreibung": "Landwirtschaft und Ernährung"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 51",
+        "Nummer": "51",
         "Beschreibung": "Verwaltung für Ernährung, Landwirtschaft und Forsten (ohne Betriebsverwaltung)"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 511",
+        "Nummer": "511",
         "Beschreibung": "Verwaltung für Ernährung und Landwirtschaft"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 512",
+        "Nummer": "512",
         "Beschreibung": "Forst-, Jagd- und Fischereiverwaltung"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 52",
+        "Nummer": "52",
         "Beschreibung": "Landwirtschaft und Ernährung"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 521",
+        "Nummer": "521",
         "Beschreibung": "Agrarstruktur und ländlicher Raum"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 522",
+        "Nummer": "522",
         "Beschreibung": "Einkommenstabilisierende Maßnahmen"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 523",
+        "Nummer": "523",
         "Beschreibung": "Landwirtschaftliche Produktion, Tiergesundheit und Ernährung"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 53",
+        "Nummer": "53",
         "Beschreibung": "Forstwirtschaft und Jagd, Fischerei"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 531",
+        "Nummer": "531",
         "Beschreibung": "Forstwirtschaft und Jagd"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 532",
+        "Nummer": "532",
         "Beschreibung": "Fischerei"
     },
     {
         "Typ": "Hauptfunktion",
-        "Nummer": " 6",
+        "Nummer": "6",
         "Beschreibung": "Energie- und Wasserwirtschaft, Gewerbe, Dienstleistungen\""
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 61",
+        "Nummer": "61",
         "Beschreibung": "Verwaltung für Energie- und Wasserwirtschaft, Gewerbe und Dienstleistungen"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 62",
+        "Nummer": "62",
         "Beschreibung": "Wasserwirtschaft, Hochwasser- und Küstenschutz"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 623",
+        "Nummer": "623",
         "Beschreibung": "Wasserwirtschaft und Kulturbau"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 624",
+        "Nummer": "624",
         "Beschreibung": "Talsperren, Hochwasserrückhaltebecken"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 63",
+        "Nummer": "63",
         "Beschreibung": "Bergbau, verarbeitendes Gewerbe und Baugewerbe"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 631",
+        "Nummer": "631",
         "Beschreibung": "Kohlenbergbau"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 632",
+        "Nummer": "632",
         "Beschreibung": "Sonstiger Bergbau"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 634",
+        "Nummer": "634",
         "Beschreibung": "Verarbeitende Industrie"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 635",
+        "Nummer": "635",
         "Beschreibung": "Handwerk und Kleingewerbe"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 638",
+        "Nummer": "638",
         "Beschreibung": "Baugewerbe"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 64",
+        "Nummer": "64",
         "Beschreibung": "Energie- und Wasserversorgung, Entsorgung"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 641",
+        "Nummer": "641",
         "Beschreibung": "Kernenergie"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 642",
+        "Nummer": "642",
         "Beschreibung": "Erneuerbare Energieformen"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 643",
+        "Nummer": "643",
         "Beschreibung": "Elektrizitätsversorgung"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 644",
+        "Nummer": "644",
         "Beschreibung": "Wasserversorgung"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 645",
+        "Nummer": "645",
         "Beschreibung": "Abwasserentsorgung"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 646",
+        "Nummer": "646",
         "Beschreibung": "Abfallwirtschaft"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 647",
+        "Nummer": "647",
         "Beschreibung": "Straßenreinigung"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 649",
+        "Nummer": "649",
         "Beschreibung": "Sonstige Energie- und Wasserversorgung"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 65",
+        "Nummer": "65",
         "Beschreibung": "Handel und Tourismus"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 651",
+        "Nummer": "651",
         "Beschreibung": "Handel"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 652",
+        "Nummer": "652",
         "Beschreibung": "Tourismus"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 66",
+        "Nummer": "66",
         "Beschreibung": "Geld- und Versicherungswesen"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 661",
+        "Nummer": "661",
         "Beschreibung": "Banken und Kreditinstitute"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 669",
+        "Nummer": "669",
         "Beschreibung": "Sonstiges Geld- und Versicherungswesen"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 68",
+        "Nummer": "68",
         "Beschreibung": "Sonstiges im Bereich Gewerbe und Dienstleistungen"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 69",
+        "Nummer": "69",
         "Beschreibung": "Regionale Fördermaßnahmen"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 691",
+        "Nummer": "691",
         "Beschreibung": "Betriebliche Investitionen"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 692",
+        "Nummer": "692",
         "Beschreibung": "Verbesserung der Infrastruktur"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 693",
+        "Nummer": "693",
         "Beschreibung": "Verbesserung der regionalen Wirtschaftsstruktur"
     },
     {
         "Typ": "Hauptfunktion",
-        "Nummer": " 7 ",
+        "Nummer": "7 ",
         "Beschreibung": "Verkehrs- und Nachrichtenwesen"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 71",
+        "Nummer": "71",
         "Beschreibung": "Verwaltung des Verkehrs- und Nachrichtenwesens"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 711",
+        "Nummer": "711",
         "Beschreibung": "Verwaltung für Straßen- und Brückenbau"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 712",
+        "Nummer": "712",
         "Beschreibung": "Verwaltung für Wasserstraßen und Häfen"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 719",
+        "Nummer": "719",
         "Beschreibung": "Sonstige Verkehrs- und Nachrichtenverwaltung"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 72",
+        "Nummer": "72",
         "Beschreibung": "Straßen"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 721",
+        "Nummer": "721",
         "Beschreibung": "Bundesautobahnen"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 722",
+        "Nummer": "722",
         "Beschreibung": "Bundesstraßen"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 723",
+        "Nummer": "723",
         "Beschreibung": "Landesstraßen"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 724",
+        "Nummer": "724",
         "Beschreibung": "Kreisstraßen"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 725",
+        "Nummer": "725",
         "Beschreibung": "Gemeindestraßen"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 726",
+        "Nummer": "726",
         "Beschreibung": "Straßenbeleuchtung"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 729",
+        "Nummer": "729",
         "Beschreibung": "Sonstiger Straßenverkehr"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 73",
+        "Nummer": "73",
         "Beschreibung": "Wasserstraßen und Häfen, Förderung der Schifffahrt"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 731",
+        "Nummer": "731",
         "Beschreibung": "Wasserstraßen und Häfen"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 732",
+        "Nummer": "732",
         "Beschreibung": "Förderung der Schifffahrt"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 74",
+        "Nummer": "74",
         "Beschreibung": "Eisenbahnen und öffentlicher Personennahverkehr"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 741",
+        "Nummer": "741",
         "Beschreibung": "Öffentlicher Personennahverkehr"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 742",
+        "Nummer": "742",
         "Beschreibung": "Eisenbahnen"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 75",
+        "Nummer": "75",
         "Beschreibung": "Luftfahrt"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 77",
+        "Nummer": "77",
         "Beschreibung": "Nachrichtenwesen"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 771",
+        "Nummer": "771",
         "Beschreibung": "Post und Telekommunikation"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 772",
+        "Nummer": "772",
         "Beschreibung": "Rundfunk und Fernsehen"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 79",
+        "Nummer": "79",
         "Beschreibung": "Sonstiges Verkehrswesen"
     },
     {
         "Typ": "Hauptfunktion",
-        "Nummer": " 8",
+        "Nummer": "8",
         "Beschreibung": "Finanzwirtschaft"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 81",
+        "Nummer": "81",
         "Beschreibung": "Grund- und Kapitalvermögen, Sondervermögen"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 811",
+        "Nummer": "811",
         "Beschreibung": "Grundvermögen"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 812",
+        "Nummer": "812",
         "Beschreibung": "Kapitalvermögen"
     },
     {
         "Typ": "Funktion",
-        "Nummer": " 813",
+        "Nummer": "813",
         "Beschreibung": "Sondervermögen"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 82",
+        "Nummer": "82",
         "Beschreibung": "Steuern und Finanzzuweisungen"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 83",
+        "Nummer": "83",
         "Beschreibung": "Schulden"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 84",
+        "Nummer": "84",
         "Beschreibung": "Beihilfen, Unterstützungen u.ä."
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 85",
+        "Nummer": "85",
         "Beschreibung": "Rücklagen"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 86",
+        "Nummer": "86",
         "Beschreibung": "Sonstiges"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 87",
+        "Nummer": "87",
         "Beschreibung": "Abwicklung der Vorjahre"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 88",
+        "Nummer": "88",
         "Beschreibung": "Globalposten"
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": " 89",
+        "Nummer": "89",
         "Beschreibung": "Haushaltstechnische Verrechnungen"
     }
 ]
