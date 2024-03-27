@@ -7,17 +7,6 @@ import os
 import polars as pl
 
 # %%
-# Funktionstabelle in JSON bereitstellen
-
-""" with open("../input_data/funktionen_formatted.csv", newline="") as csvfile:
-    reader = csv.DictReader(csvfile)
-    data = [row for row in reader]
-
-
-with open("../output_data/funktionen_formatted.json", "w") as jsonfile:
-    json.dump(data, jsonfile, ensure_ascii=False) """
-
-# %%
 # Funktionsdataframe erstellen
 
 with open("../output_data/funktionen_formatted.json", "r") as jsonfile:
@@ -52,16 +41,31 @@ temp = pl.read_csv(
 )
 
 unconverted_data = temp["funktion"].to_list()
-converted_data = pl.Series([int(str(number)[0]) for number in unconverted_data])
+converted_data = pl.Series([str(number)[0] for number in unconverted_data])
 
-hh23 = temp.with_columns(converted_data.alias("funktion"))
+hh = temp.with_columns(converted_data.alias("funktion"))
 
 # %%
 # Addiere Einträge nach Hauptfunktion
 ctx = pl.SQLContext(register_globals=True, eager_execution=True)
-hh23_aggregated = ctx.execute(
-    "SELECT SUM(soll), funktion, titel_text, einnahmen_ausgaben from hh23 WHERE einnahmen_ausgaben='A' OR einnahmen_ausgaben='a' GROUP BY funktion ORDER BY soll DESC"
+hh_aggregated = ctx.execute(
+    "SELECT SUM(soll), funktion from hh WHERE einnahmen_ausgaben='A' OR einnahmen_ausgaben='a' GROUP BY funktion ORDER BY soll DESC"
 )
 total_expenses = ctx.execute(
-    "SELECT SUM(soll) from hh23 WHERE einnahmen_ausgaben='A' OR einnahmen_ausgaben='a'"
+    "SELECT SUM(soll) from hh WHERE einnahmen_ausgaben='A' OR einnahmen_ausgaben='a'"
 )
+
+# %%
+# Füge Beschreibung zu aggregierten Daten
+
+with open("../output_data/funktionen_formatted.json", "r") as jsonfile:
+    json_data = json.load(jsonfile)
+    funktionen_dict = {x["Nummer"]: x["Beschreibung"] for x in json_data}
+
+aggregated_functions = hh_aggregated["funktion"].to_list()
+beschreibungen = pl.Series([funktionen_dict[x] for x in aggregated_functions])
+
+hh_complete = hh_aggregated.with_columns(beschreibungen.alias("Hauptfunktion"))
+
+print(hh_complete)
+# %%

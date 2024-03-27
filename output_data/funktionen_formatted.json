@@ -2,7 +2,7 @@
     {
         "Typ": "Hauptfunktion",
         "Nummer": "0",
-        "Beschreibung": "Allgemeine Dienste\""
+        "Beschreibung": "Allgemeine Dienste"
     },
     {
         "Typ": "Oberfunktion",
@@ -751,7 +751,7 @@
     },
     {
         "Typ": "Hauptfunktion",
-        "Nummer": "4\r\n",
+        "Nummer": "4",
         "Beschreibung": "Wohnungswesen, Städtebau, Raumordnung und kommunale\r\n  Gemeinschaftsdienste"
     },
     {
@@ -1011,7 +1011,7 @@
     },
     {
         "Typ": "Hauptfunktion",
-        "Nummer": "7 ",
+        "Nummer": "7",
         "Beschreibung": "Verkehrs- und Nachrichtenwesen"
     },
     {
