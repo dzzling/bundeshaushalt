@@ -1,9 +1,7 @@
 # %%
 # Imports
 
-import csv
 import json
-import os
 import polars as pl
 import pathlib
 
