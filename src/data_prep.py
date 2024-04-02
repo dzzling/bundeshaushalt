@@ -8,7 +8,7 @@ import pathlib
 # %%
 # Define file name
 
-file = "hh_2014"
+file = "hh_2017_test"
 
 # %%
 # Funktionsdataframe erstellen
@@ -40,7 +40,7 @@ schema = {
 
 temp = pl.read_csv(
     f"../input_data/haushalt_daten/{file}.csv",
-    separator=";",
+    separator=",",
     schema=schema,
 )
 
