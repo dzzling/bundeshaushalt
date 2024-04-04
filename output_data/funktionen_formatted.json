@@ -215,6 +215,11 @@
         "Beschreibung": "Allgemeinbildende und berufliche Schulen"
     },
     {
+        "Typ": "Oberfunktion",
+        "Nummer": "12",
+        "Beschreibung": "Allgemeinbildende und berufliche Schulen"
+    },
+    {
         "Typ": "Funktion",
         "Nummer": "111",
         "Beschreibung": "Unterrichtsverwaltung"
@@ -386,7 +391,12 @@
     },
     {
         "Typ": "Oberfunktion",
-        "Nummer": "18/19",
+        "Nummer": "18",
+        "Beschreibung": "Kultur und Religion"
+    },
+    {
+        "Typ": "Oberfunktion",
+        "Nummer": "19",
         "Beschreibung": "Kultur und Religion"
     },
     {

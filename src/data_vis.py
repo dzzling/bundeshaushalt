@@ -99,7 +99,6 @@ for entry in sorted_total.rows(named=True):
 sorted_total = sorted_total.filter(pl.col("year") != "2014").with_columns(
     pl.Series(slope_series).alias("slope")
 )
-print(sorted_total)
 # %%
 # Visualize slope
 
