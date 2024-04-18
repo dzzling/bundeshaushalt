@@ -9,7 +9,8 @@ import polars as pl
 # Read file
 # Use frictionless cli to determine data types of csv files
 
-file = "nhh_2015_1"
+nhh_file = "nhh_2015_1"
+curr_hh_file = "hh_2015_haupt"
 
 
 schema = {
@@ -32,7 +33,7 @@ schema = {
 }
 
 temp = pl.read_csv(
-    f"../input_data/nachtragshaushalte/{file}.csv", separator=";", schema=schema
+    f"../input_data/nachtragshaushalte/{nhh_file}.csv", separator=";", schema=schema
 )
 
 # %%
@@ -80,7 +81,22 @@ for s in hh_by_hauptfunktion.iter_rows(named=True):
         hh_by_hauptfunktion[idx, "excess_vals"] = new_val - old_val
     idx += 1
 
+# %%
+# Overwrite original budget plans
 
-# if bisher < soll, then label entry in column "extra" as true
+schema = {
+    "soll": pl.Int64,
+    "funktion": pl.String,
+    "beschreibung": pl.String,
+    "has_excess": pl.Boolean,
+    "excess_vals": pl.Int64,
+}
+
+path_to_curr_file = (
+    f"../output_data/haushalts_daten/nach_hauptfunktion/{curr_hh_file}.csv"
+)
+curr_data = pl.read_csv(path_to_curr_file, schema=schema, separator=";")
+
+print(curr_data)
 
 # %%
