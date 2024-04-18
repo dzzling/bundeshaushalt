@@ -165,3 +165,4 @@ input_data/funktionen/funktionen_long.csv
 input_data/funktionen/funktionen_short.csv
 output_data/funktionen_long.json
 output_data/funktionen_short.json
+.DS_Store
