@@ -8,7 +8,7 @@ import pathlib
 # %%
 # Define file name
 
-file = "hh_2017"
+file = "hh_2014"
 
 # %%
 # Funktionsdataframe erstellen
@@ -41,7 +41,7 @@ schema = {
 
 temp = pl.read_csv(
     f"../input_data/haushalt_daten/{file}.csv",
-    separator=",",
+    separator=";",
     schema=schema,
 )
 
@@ -86,10 +86,22 @@ oberfunktion_beschreibungen = pl.Series(
 )
 
 hh_complete_by_hauptfunktion = hh_by_hauptfunktion.with_columns(
-    hauptfunktion_beschreibungen.alias("hauptfunktionstitel")
+    hauptfunktion_beschreibungen.alias("hauptfunktionstitel"),
+    pl.Series([False] * hh_by_hauptfunktion.select(pl.len())["len"].to_list()[0]).alias(
+        "has_excess"
+    ),
+    pl.Series([0] * hh_by_hauptfunktion.select(pl.len())["len"].to_list()[0]).alias(
+        "excess_vals"
+    ),
 )
 hh_complete_by_oberfunktion = hh_by_oberfunktion.with_columns(
-    oberfunktion_beschreibungen.alias("oberfunktionstitel")
+    oberfunktion_beschreibungen.alias("oberfunktionstitel"),
+    pl.Series([False] * hh_by_oberfunktion.select(pl.len())["len"].to_list()[0]).alias(
+        "has_excess"
+    ),
+    pl.Series([0] * hh_by_oberfunktion.select(pl.len())["len"].to_list()[0]).alias(
+        "excess_vals"
+    ),
 )
 
 print(hh_complete_by_hauptfunktion)
@@ -98,7 +110,7 @@ print(hh_complete_by_oberfunktion)
 # %%
 # Export dataframes as csv
 
-""" path: pathlib.Path = f"../output_data/haushalts_daten/{file}.csv"
-hh_complete.write_csv(path, separator=";") """
+path: pathlib.Path = f"../output_data/haushalts_daten/{file}_haupt.csv"
+hh_complete_by_hauptfunktion.write_csv(path, separator=";")
 
 # %%
