@@ -1,19 +1,18 @@
-
 einzelplan;einzelplan-text;einnahmen-ausgaben;einnahmen-ausgaben-art;kapitel;kapitel-text;titel;funktion;titel-text;flex;seite;soll;seite;bisher;titelgruppe;tgr-text
-;;;;;;;029;Für humanitäre Hilfsmaßnahmen im Ausland;;;475.000;;400.000  
-;;;;;;;042;Entgelte für Arbeitskräfte mit befristeten Verträgen, sonstige Beschäftigungsentgelte (auch für Auszubildende) sowie Aufwendungen für nebenberuflich und nebenamtlich Tätige;;;7.515;;6.875  
-;;;;;;;042;Erwerb von Anlagen, Geräten, Ausstattungs- und Ausrüstungsgegenständen sowie Software im Bereich Informationstechnik;;;27.337;;17.977  
-;;;;;;;045;Einsätze bei Katastrophen, Unglücksfällen größeren Ausmaßes und öffentlichen Notständen;;;19.800;;400  
-;;;;;;;219;Erwerb von Anlagen, Geräten, Ausstattungs- und Ausrüstungsgegenständen sowie Software im Bereich Informationstechnik;;;18.101;;5.741  
-;;;;;;;061;Bezüge und Nebenleistungen der planmäßigen Beamtinnen und Beamten;;;44.735;4;4.535  
-;;;;;;;061;Geschäftsbedarf und Kommunikation sowie Geräte, Ausstattungs- und Ausrüstungsgegenstände, sonstige Gebrauchsgegenstände, Software, Wartung;;;78.867;78.467  
-;;;;;;;061;Aufträge und Dienstleistungen im Bereich Informationstechnik;;;27.380;;22.380  
-;;;;;;;061;Erwerb von Geräten, Ausstattungs- und Ausrüstungsgegenständen für Verwaltungszwecke (ohne IT);;;1.124;;724  
-;;;;;;;061;Erwerb von Anlagen, Geräten, Ausstattungs- und Ausrüstungsgegenständen sowie Software im Bereich Informationstechnik;;;79.566;;74.566  
-;;;;;;;252;Beteiligung des Bundes an den Leistungen für Unterkunft und Heizung;;;5.350.000;;4.900.000  
-;;;;;;;251;Arbeitslosengeld II;;;20.300.000;;20.100.000  
-;;;;;;;232;Elterngeld;;;5.850.000;;5.550.000  
-;;;;;;;830;Zinsen für Bundesanleihen;;;17.510.832;;19.388.592  
-;;;;;;;680;Entschädigungen und Kosten aus inlandsbezogenen Gewährleistungen, Zahlungen zur Abwendung oder Minderung von Schäden;;;350.000;;550.000  
-;;;;;;;820;Zuweisung an den Energie- und Klimafonds;;;2.081.000;;781.000  
-;;;;;;;850;Zuführungen an Rücklage zur Finanzierung von Belastungen im Zusammenhang mit der Aufnahme und Unterbringung von Asylbewerbern und Flüchtlingen;;;5.000.000;;0  
+;;;;;;;029;Für humanitäre Hilfsmaßnahmen im Ausland;;;475000;;400000;;
+;;;;;;;042;Entgelte für Arbeitskräfte mit befristeten Verträgen, sonstige Beschäftigungsentgelte (auch für Auszubildende) sowie Aufwendungen für nebenberuflich und nebenamtlich Tätige;;;7515;;6875;;
+;;;;;;;042;Erwerb von Anlagen, Geräten, Ausstattungs- und Ausrüstungsgegenständen sowie Software im Bereich Informationstechnik;;;27337;;17977;;
+;;;;;;;045;Einsätze bei Katastrophen, Unglücksfällen größeren Ausmaßes und öffentlichen Notständen;;;19800;;400;;
+;;;;;;;219;Erwerb von Anlagen, Geräten, Ausstattungs- und Ausrüstungsgegenständen sowie Software im Bereich Informationstechnik;;;18101;;5741;;
+;;;;;;;061;Bezüge und Nebenleistungen der planmäßigen Beamtinnen und Beamten;;;44735;4;4535;;
+;;;;;;;061;Geschäftsbedarf und Kommunikation sowie Geräte, Ausstattungs- und Ausrüstungsgegenstände, sonstige Gebrauchsgegenstände, Software, Wartung;;;78867;;78467;;
+;;;;;;;061;Aufträge und Dienstleistungen im Bereich Informationstechnik;;;27380;;22380;;
+;;;;;;;061;Erwerb von Geräten, Ausstattungs- und Ausrüstungsgegenständen für Verwaltungszwecke (ohne IT);;;1124;;724;;
+;;;;;;;061;Erwerb von Anlagen, Geräten, Ausstattungs- und Ausrüstungsgegenständen sowie Software im Bereich Informationstechnik;;;79566;;74566;;
+;;;;;;;252;Beteiligung des Bundes an den Leistungen für Unterkunft und Heizung;;;5350000;;4900000;;
+;;;;;;;251;Arbeitslosengeld II;;;20300000;;20100000;;
+;;;;;;;232;Elterngeld;;;5850000;;5550000;;
+;;;;;;;830;Zinsen für Bundesanleihen;;;17510832;;19388592;;
+;;;;;;;680;Entschädigungen und Kosten aus inlandsbezogenen Gewährleistungen, Zahlungen zur Abwendung oder Minderung von Schäden;;;350000;;550000;;
+;;;;;;;820;Zuweisung an den Energie- und Klimafonds;;;2081000;;781000;;
+;;;;;;;850;Zuführungen an Rücklage zur Finanzierung von Belastungen im Zusammenhang mit der Aufnahme und Unterbringung von Asylbewerbern und Flüchtlingen;;;5000000;;0;;
