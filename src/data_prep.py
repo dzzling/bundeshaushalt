@@ -8,7 +8,7 @@ import pathlib
 # %%
 # Define file name
 
-file = "hh_2014"
+file = "hh_2023"
 
 # %%
 # Funktionsdataframe erstellen
@@ -57,18 +57,24 @@ print(hh)
 # %%
 # Addiere Einträge nach Hauptfunktion
 ctx = pl.SQLContext(register_globals=True, eager_execution=True)
-hh_by_hauptfunktion = ctx.execute(
-    "SELECT SUM(soll), hauptfunktion from hh WHERE einnahmen_ausgaben='A' OR einnahmen_ausgaben='a' GROUP BY hauptfunktion ORDER BY soll DESC"
+
+detective = ctx.execute(
+    "SELECT soll, oberfunktion, titel_text from hh WHERE einnahmen_ausgaben='A' OR einnahmen_ausgaben='a' AND hauptfunktion = '0' ORDER BY soll DESC"
 )
+
+hh_by_hauptfunktion = ctx.execute(
+    "SELECT SUM(soll), hauptfunktion from hh WHERE einnahmen_ausgaben='A' OR einnahmen_ausgaben='a' AND kapitel_text NOT LIKE 'Anlage%' GROUP BY hauptfunktion ORDER BY soll DESC"
+)
+
+# not including: titelgruppe: 91901
+
 hh_by_oberfunktion = ctx.execute(
     "SELECT SUM(soll), oberfunktion from hh WHERE einnahmen_ausgaben='A' OR einnahmen_ausgaben='a' GROUP BY oberfunktion ORDER BY soll DESC"
 )
 
-total_expenses = ctx.execute(
-    "SELECT SUM(soll) from hh WHERE einnahmen_ausgaben='A' OR einnahmen_ausgaben='a'"
-)
+total_expenses = ctx.execute("SELECT SUM(soll) from hh_by_hauptfunktion")
 print(hh_by_hauptfunktion)
-
+print(total_expenses)
 # %%
 # Füge Beschreibung zu aggregierten Daten
 
