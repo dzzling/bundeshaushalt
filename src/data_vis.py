@@ -8,8 +8,10 @@ import os
 # Read all csv data into one dataframe
 df_dict = {}
 
-for filename in os.listdir("../output_data/haushalts_daten"):
-    file = pl.read_csv(f"../output_data/haushalts_daten/{filename}", separator=";")
+for filename in os.listdir("../output_data/haushalts_daten/nach_hauptfunktion"):
+    file = pl.read_csv(
+        f"../output_data/haushalts_daten//nach_hauptfunktion{filename}", separator=";"
+    )
     df_dict[re.findall(r"(.*)(?:\.csv)", filename)[0]] = file
 
 # %%
