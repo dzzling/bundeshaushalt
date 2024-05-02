@@ -1,44 +1,79 @@
 # %% Imports
+
 import altair as alt
 import polars as pl
-import re
-import os
 
 # %%
-# Read all csv data into one dataframe
-df_dict = {}
+# Set viewer
 
-for filename in os.listdir("../output_data/haushalts_daten/nach_hauptfunktion"):
-    file = pl.read_csv(
-        f"../output_data/haushalts_daten//nach_hauptfunktion{filename}", separator=";"
-    )
-    df_dict[re.findall(r"(.*)(?:\.csv)", filename)[0]] = file
+alt.renderers.enable("mimetype")
+
 
 # %%
-# Generate bar chart from combined data
+# Display supp values as individual entries
+
 schema = {
     "id": pl.Int64,
     "year": pl.String,
     "amount": pl.Int64,
     "function": pl.String,
     "title": pl.String,
+    "supp": pl.Boolean,
+    "supp_vals": pl.Int64,
 }
 
-total = pl.read_csv("../input_data/haushalt_total/hh_total.csv", schema=schema)
+total = pl.read_csv(
+    "../output_data/haushalts_daten/hh_total.csv", schema=schema, separator=";"
+)
+
+optimized_df = pl.DataFrame(
+    {"year": [], "amount": [], "function": [], "title": [], "supp": []},
+    schema={
+        "year": pl.String,
+        "amount": pl.Int64,
+        "function": pl.String,
+        "title": pl.String,
+        "supp": pl.Boolean,
+    },
+)
+for entry in total.iter_rows(named=True):
+    new_entry = pl.DataFrame(
+        {
+            "year": [entry["year"]],
+            "amount": [entry["amount"]],
+            "function": [entry["function"]],
+            "title": [entry["title"]],
+            "supp": [False],
+        }
+    )
+    if entry["supp"] is True:
+        supp_vals = {
+            "year": [entry["year"]],
+            "amount": [entry["supp_vals"]],
+            "function": [entry["function"]],
+            "title": [entry["title"]],
+            "supp": [True],
+        }
+        new_entry = pl.concat([new_entry, pl.DataFrame(supp_vals)])
+    optimized_df = pl.concat([optimized_df, new_entry])
+
+# %%
+# Generate bar chart from combined data
 
 selection = alt.selection_point(fields=["function"])
+
 color = alt.condition(
     selection, alt.Color("function:N").legend(None), alt.value("lightgray")
 )
 
 scatter = (
-    alt.Chart(total)
+    alt.Chart(optimized_df)
     .mark_bar()
     .encode(x="year:N", y="amount:Q", color=color, tooltip="title:N")
 )
 
 legend = (
-    alt.Chart(total)
+    alt.Chart(optimized_df)
     .mark_point()
     .encode(alt.Y("title:N").axis(orient="right"), color=color)
     .add_params(selection)
@@ -47,16 +82,50 @@ legend = (
 scatter | legend
 
 # %%
-# Alternative chart with logarithmic scale
-schema = {
-    "id": pl.Int64,
-    "year": pl.String,
-    "amount": pl.Int64,
-    "function": pl.String,
-    "title": pl.String,
-}
+# Visualize supplementary budgets individually
 
-total = pl.read_csv("../input_data/haushalt_total/hh_total.csv", schema=schema)
+supp_color = alt.Color("function:N").legend(None)
+legend_color = alt.Color("function:N").legend(None)
+
+scatter = (
+    alt.Chart(optimized_df)
+    .mark_bar()
+    .encode(x="year:N", y="amount:Q", color=supp_color, tooltip="title:N")
+).transform_filter(alt.FieldEqualPredicate(field="supp", equal=True))
+
+legend = (
+    alt.Chart(optimized_df)
+    .mark_point()
+    .encode(alt.Y("title:N").axis(orient="right"), color=legend_color)
+)
+
+scatter | legend
+
+# %%
+# Show integrated supp vals
+
+supp_color = alt.condition(
+    alt.FieldEqualPredicate(field="supp", equal=True),
+    alt.Color("function:N").legend(None),
+    alt.value("lightgray"),
+)
+legend_color = alt.Color("function:N").legend(None)
+
+scatter = (
+    alt.Chart(optimized_df)
+    .mark_bar()
+    .encode(x="year:N", y="amount:Q", color=supp_color, tooltip="title:N")
+)
+
+legend = (
+    alt.Chart(optimized_df)
+    .mark_point()
+    .encode(alt.Y("title:N").axis(orient="right"), color=legend_color)
+)
+
+scatter | legend
+# %%
+# Alternative chart with logarithmic scale
 
 selection = alt.selection_point(fields=["function"])
 color = alt.condition(
@@ -64,7 +133,7 @@ color = alt.condition(
 )
 
 scatter = (
-    alt.Chart(total)
+    alt.Chart(optimized_df)
     .mark_point()
     .encode(
         x="year:N",
@@ -75,7 +144,7 @@ scatter = (
 )
 
 legend = (
-    alt.Chart(total)
+    alt.Chart(optimized_df)
     .mark_point()
     .encode(alt.Y("title:N").axis(orient="right"), color=color)
     .add_params(selection)
@@ -84,15 +153,25 @@ legend = (
 scatter | legend
 
 # %%
+# Get summed up table
+new_total = total.clone()
+
+for entry in new_total.iter_rows(named=True):
+    if entry["supp"] is True:
+        inclusive_val = entry["amount"] + entry["supp_vals"]
+        new_total[entry["id"] - 1, "amount"] = inclusive_val
+# %%
 # Calculate slope
+
 slope_series = []
-sorted_total = total.sort("function")
+sorted_total = new_total.sort("year")
+sorted_total = sorted_total.sort("function")
 
 curr_func = None
 old_amount = None
-for entry in sorted_total.rows(named=True):
+for entry in sorted_total.iter_rows(named=True):
     if curr_func == entry["function"]:
-        slope_series.append(old_amount / entry["amount"])
+        slope_series.append(entry["amount"] / old_amount)
         old_amount = entry["amount"]
     else:
         curr_func = entry["function"]

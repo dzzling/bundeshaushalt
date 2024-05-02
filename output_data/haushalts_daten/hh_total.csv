@@ -61,7 +61,7 @@ id;year;amount;function;title;supp;supp_vals
 54;2017;1249766;5;Landwirtschaft und Ernährung;false;0
 55;2016;161484788;2;Soziale Sicherung, Familie und Jugend, Arbeitsmarktpolitik;false;0
 56;2016;71571754;0;Allgemeine Dienste;false;0
-57;2016;31251762;8;Finanzwirtschaft;true;0
+57;2016;31251762;8;Finanzwirtschaft;false;0
 58;2016;21961294;1;Bildungswesen, Wissenschaft, Forschung, kulturelle Angelegenheiten;false;0
 59;2016;18880635;7;Verkehrs- und Nachrichtenwesen;false;0
 60;2016;5869955;6;"Energie- und Wasserwirtschaft, Gewerbe, Dienstleistungen""";false;0
