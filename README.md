@@ -8,7 +8,7 @@ Mit dem Projekt verfolgte ich zwei Zwecke:
   <li>Die Entwicklung des Bundeshaushalts über ein Jahrzehnt visualisieren</li>
 </ol>
 
-Zum deutschen Bundeshaushalt gibt es auch eine eigene Plattform, die alle Punkte detailliert aufschlüsselt und schön aufarbeitet. Die Plattform findet ihr [hier](https://www.bundeshaushalt.de/DE/Bundeshaushalt-digital/bundeshaushalt-digital.html). Für mich war es allerdings nicht ausreichend, nur die Auswertung der Daten einzusehen, ich wollte sie selbst analysieren. Die Analyse kann ich nun auch eigenständig in den nächsten Jahren fortführen und nach Bedarf um weitere Forschungsfragen erweitern. 
+Zum deutschen Bundeshaushalt gibt es auch eine eigene Plattform, die alle Punkte detailliert aufschlüsselt und schön aufbereitet. Die Plattform findet ihr [hier](https://www.bundeshaushalt.de/DE/Bundeshaushalt-digital/bundeshaushalt-digital.html). Für mich war es allerdings nicht ausreichend, nur die Auswertung der Daten einzusehen, ich wollte sie selbst analysieren. Die Analyse kann ich nun auch eigenständig in den nächsten Jahren fortführen und nach Bedarf um weitere Forschungsfragen erweitern. 
 
 ## Datenquelle
 
