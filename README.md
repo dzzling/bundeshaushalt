@@ -8,11 +8,11 @@ Mit dem Projekt verfolgte ich zwei Zwecke:
   <li>Die Entwicklung des Bundeshaushalts über ein Jahrzehnt visualisieren</li>
 </ol>
 
-Zum deutschen Bundeshaushalt gibt es auch eine eigene Plattform, die wirklich schön alle Punkte aufschlüsselt. Die Plattform findet ihr [hier](https://www.bundeshaushalt.de/DE/Bundeshaushalt-digital/bundeshaushalt-digital.html). Für mich war es allerdings nicht ausreichend, die aggregierten Daten präsentiert zu bekommen, ich wollte sie selbst analyisieren. Die Analyse kann ich somit auch selbständig die nächsten Jahre fortführen und nach Lust und Laune um weitere Forschungsfragen vertiefen. 
+Zum deutschen Bundeshaushalt gibt es auch eine eigene Plattform, die alle Punkte detailliert aufschlüsselt und schön aufarbeitet. Die Plattform findet ihr [hier](https://www.bundeshaushalt.de/DE/Bundeshaushalt-digital/bundeshaushalt-digital.html). Für mich war es allerdings nicht ausreichend, nur die Auswertung der Daten einzusehen, ich wollte sie selbst analysieren. Die Analyse kann ich nun auch eigenständig in den nächsten Jahren fortführen und nach Bedarf um weitere Forschungsfragen erweitern. 
 
 ## Datenquelle
 
-Der Bund stellt die Daten über das bereits genannte [Portal](https://www.bundeshaushalt.de/DE/Download-Portal/download-portal.html) zum digitalen Bundeshaushalt verfügbar. Die zur Verfügung gestellten Daten reichen bis ins Jahr 2005 zurück. Richtig bearbeitet werden können aber nur die Datein ab 2014, weshalb ich mich dazu entschieden hatte, mich bei der Analyse auf die vergangenen zehn Jahre zu konzentrieren. Dateiformate zu den früheren Bundeshaushalten sind teilweise nicht uniform zu den neueren Dateiformaten. Zur Verarbeitung bzw. zum Vergleich, mussten diese nachbereinigt werden. 
+Der Bund stellt die Daten über das bereits genannte [Portal](https://www.bundeshaushalt.de/DE/Download-Portal/download-portal.html) zum digitalen Bundeshaushalt verfügbar. Die zur Verfügung gestellten Daten reichen bis ins Jahr 2005 zurück. Quantitativ bearbeitet werden können aber nur die Datein ab 2014 (davor sind es PDF-Dateien), weshalb ich mich dazu entschieden hatte, mich bei der Analyse auf die vergangenen zehn Jahre zu konzentrieren. Dabei stellten ältere Dateien immer noch Schwierigkeiten dar, da die Dateien zu den früheren Bundeshaushalten teilweise nicht mit den neueren Dateien uniform sind. Zur Verarbeitung bzw. zum Vergleich, mussten diese nachbereinigt werden. 
 
 Beim sporadischen Abgleich mit den Grafiken auf dem Portal zum digitalen Bundeshaushalt sind mir Unstimmigkeiten für das Jahr 2023 aufgefallen. Die Ursache der Unstimmigkeit konnte ich identifizieren, mir aber nicht erklären. Meiner Vermutung nach veranlasst dabei einer finanzieller Sonderfall eine abweichende Berechnung, die sich für mich ohne Fachkenntnisse nicht nachvollziehen lässt. 
 
@@ -20,7 +20,7 @@ Beim sporadischen Abgleich mit den Grafiken auf dem Portal zum digitalen Bundesh
 
 ![Entwicklung als Balkendiagramm](/output_data/visualisierungen/complete_bar.svg)
 
-An dieser Stelle erhält man einen guten ersten Überblick. Schnell ersichtlich ist, dass der größte Kostenpunkt "Soziales" ist. Mit großem Abstand folgt der Punkt "Allgemeine Dienste", der auch unsere Verteidigungsausgaben beinhaltet.
+An dieser Stelle erhält man einen guten ersten Überblick. Der größte Kostenpunkt "Soziales" springt hier relativ schnell in den Blick. Mit großem Abstand folgt der Kostenpunkt "Allgemeine Dienste", der auch unsere Verteidigungsausgaben beinhaltet.
 
 ![Logarithmische Skala zur Entwicklung des Bundeshaushalts](/output_data/visualisierungen/complete_logarithmic.svg)
 
@@ -28,7 +28,7 @@ Die Entwicklung der Kostenpunkte ist auf einer logarithmischen Skala deutlich be
 
 ![Steigung der Entwickung des Bundeshaushalts](/output_data/visualisierungen/slope.svg)
 
-Ein wahrhaft interessantes Bild ist die Entwicklung des Bundeshaushalts als Graphen, der die Haushaltsausgaben im Vergleich zu den Haushaltsausgaben im Vorjahr setzt. Die Steigung der Ausgaben nach Kostenpunkt also so zu sagen.
+Ein wahrhaft interessantes Bild ist die Entwicklung des Bundeshaushalts als Graphen, der die Haushaltsausgaben im Vergleich zu den Haushaltsausgaben im Vorjahr setzt. Der Graph bildet also die Steigung der Ausgaben nach Kostenpunkt ab.
 
 ![Nachtragshaushalte](/output_data/visualisierungen/integrated_supp.svg)
 
