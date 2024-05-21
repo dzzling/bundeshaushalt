@@ -38,9 +38,9 @@ Auch die Nachtragshaushalte lassen sich in den Vergleich zu den sonstigen Hausha
 
 Zuletzt hier noch einmal die Nachtragshaushalte isoliert im Vergleich. 
 
-# English summary
-
 Nun nochmal eine kurze Zusammenfassung auf Englisch:
+
+# English summary
 
 I had two purposes for the project:
 <ol>
