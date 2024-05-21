@@ -124,6 +124,16 @@ legend = (
 )
 
 scatter | legend
+
+# %%
+# Get summed up table
+new_total = total.clone()
+
+for entry in new_total.iter_rows(named=True):
+    if entry["supp"] is True:
+        inclusive_val = entry["amount"] + entry["supp_vals"]
+        new_total[entry["id"] - 1, "amount"] = inclusive_val
+
 # %%
 # Alternative chart with logarithmic scale
 
@@ -133,7 +143,7 @@ color = alt.condition(
 )
 
 scatter = (
-    alt.Chart(optimized_df)
+    alt.Chart(new_total)
     .mark_point()
     .encode(
         x="year:N",
@@ -144,22 +154,13 @@ scatter = (
 )
 
 legend = (
-    alt.Chart(optimized_df)
+    alt.Chart(new_total)
     .mark_point()
     .encode(alt.Y("title:N").axis(orient="right"), color=color)
     .add_params(selection)
 )
 
 scatter | legend
-
-# %%
-# Get summed up table
-new_total = total.clone()
-
-for entry in new_total.iter_rows(named=True):
-    if entry["supp"] is True:
-        inclusive_val = entry["amount"] + entry["supp_vals"]
-        new_total[entry["id"] - 1, "amount"] = inclusive_val
 # %%
 # Calculate slope
 
